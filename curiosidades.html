@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Bob Esponja</title>
+</head>
+<body>
+    <div class="logo-container">
+        <a href="index.html"><img src="logo.png" alt="Logo" class="logo"></a>    </div>
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="curiosidades.html">Curiosidades</a></li>
+        </ul>
+    </nav>
+
+    <div class="linha-separadora"></div>
+    <div class="fundo-embaixo">
+
+    <h1>Curiosidades</h1>
+    <div class="bloco">
+        <div>
+            <video controls class="video">
+                <source src="Primeiros 5 Minutos .mp4" type="video/mp4" />
+            </video>
+        </div> 
+
+        <div>
+            <ul>
+                <li class="lista">1° Episódio lançado 01/05/1999 - EUA</li>
+                <li class="lista">Gary acha o Bob Esponja bob, porém um ótimo dono</li>
+                <li class="lista">Siri cascudo é uma armadilha de lagosta</li>
+                <li class="lista">Apesar do nome, o Lula Molusco é um polvo</li>
+                <li class="lista">Na vida real Bob Esponja e Patrik não poderiam ser amigos</li>
+            </ul>
+        </div>
+    </div>  
+
+    <div class="linha-separadora"></div>
+    <div class="fundo-embaixo">
+
+     <h1>Filmes</h1>   
+     
+    <table class="tabela">
+        <tr>
+            <th>Nome</th>
+            <th>Lançamento</th>
+            <th>Resumo</th>
+        </tr>
+        <tr>
+            <td>Bob Esponja: O Filme</td>
+            <td>19/11/2004</td>
+            <td>Bob Esponja e Patrick vão a Cidade das Conchas pra recuperar a coroa do Rei Netuno.</td>
+        </tr>
+        <tr>
+            <td>Bob Esponja: Um Herói fora d'água</td>
+            <td>05/02/2015</td>
+            <td>Bob Esponja precisa ir em uma busca para descobrir uma receita roubada que o leva para a nossa dimensão, o nosso mundo, onde ele emaranhados com um pirata.</td>
+        </tr>
+        <tr>
+            <td>Bob Esponja: O Incrível Resgate</td>
+            <td>05/11/2020</td>
+            <td>Bob Esponja e Patrick vão em uma missão de resgate para salvar Gary, que foi capturado por Poseidon e levado para a Cidade Perdida de Atlantic City. </td>
+        </tr>
+    </table>
+
+    <div class="linha-separadora"></div>
+    <div class="fundo-embaixo">
+
+    <h1>JOGOS</h1>
+    <div>
+        <a href="https://www.clickjogos.com.br/jogos-do-bob-esponja/spongebob-falling-adventure" target="_blank"><img src="9.png" class="img-jogo"></a>
+    </div>
+
+    <div class="linha-separadora"></div>
+    <div class="fundo-embaixo">
+
+    <h1>ENVIE UMA CURIOSIDADE</h1>
+    <div class="form">
+        <form id="formulario" autocomplete="off">
+            <label for="nome">Nome</label><input class="box" type='text' id='nome' name='nome' required><br>
+            <label for="email">Email</label><input class="box" type='email' id='email' name='email' required><br>
+            <label for="fone">Celular com DDD</label><input class="box" type="tel" id="fone" name="fone" required pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" placeholder="11 99999-9999"><br>
+            <p>Sexo:</p>
+            <input type="radio" id="sexo-m" name="sexo" value="Masculino"><label for="sexo-m">Masculino</label><br>
+            <input type="radio" id="sexo-f" name="sexo" value="Feminino"><label for="sexo-f">Feminio</label><br>
+            <label for="estado">Estado</label>
+            <select id="estado" name="estado">
+                <option value="SP">PR</option>
+                <option value="RJ">SP</option>
+                <option value="PB">RJ</option>
+	        </select><br>
+            <label for="msg">Curiosidades Adicionais</label><br><textarea class="box" id="msg" name="msg" rows="4" cols="50"></textarea><br>
+            <input class="submit" type="submit" value="Enviar">
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 - Todos os direitos reservados</p>
+        <nav>
+            <ul>
+                <li class="menu-inferior"><a href="index.html">Home</a></li>
+                <li class="menu-inferior"><a href="curiosidades.html">Curiosidades</a></li>
+            </ul>
+        </nav>
+    </footer>    
+</body>
+</html>
